@@ -1,0 +1,11 @@
+body{
+    background: #EEE;
+    line-height: 1.5em;
+    font-size: 24pt;
+}
+.noidung{
+    border: 1px solid #AAA;
+    border-radius: 20px;
+    background: #CCC;
+    padding: 10px 5px;
+}

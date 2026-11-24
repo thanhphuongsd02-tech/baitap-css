@@ -1,0 +1,26 @@
+/* Khung bao bài báo chia 3 cột */
+.khung-bao {
+    width: 750px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #999;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+
+    /* Chia thành 3 cột báo */
+    column-count: 3;
+    column-gap: 25px;
+    column-rule: 1px solid #666;
+}
+
+/* Chữ cái lớn đầu đoạn (Drop Cap) */
+.chu-dau {
+    float: left;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 0.85;
+    padding-right: 6px;
+    padding-top: 2px;
+}
